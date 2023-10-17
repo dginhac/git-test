@@ -8,9 +8,12 @@ public:
     int month() const;
     int day() const;
     void updateDate(int month, int day);
+    
     std::string toString() const;
 
 private:
     int _month;
     int _day;    
 };
+
+bool isDate(int month, int day);
